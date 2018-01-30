@@ -1,8 +1,8 @@
 /*jslint node: true */
 "use strict";
 require('./relay');
-var conf = require('byteballcore/conf.js');
-var eventBus = require('byteballcore/event_bus.js');
+var conf = require('GAEAcore/conf.js');
+var eventBus = require('GAEAcore/event_bus.js');
 var express = require('express');
 var app = express();
 var server = require('http').Server(app);
